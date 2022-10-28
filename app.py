@@ -3,6 +3,7 @@ from module.mmm.linearMMM import mmm_model
 from module.mmm.dataTransform import readData
 from module.mmm.sideBar import sidebarTool
 from module.mta.mtaResult import mtaModel
+from module.markov.dataTransform import markovModel
 
 
 def run():
@@ -30,7 +31,7 @@ def run():
         mtaModel(file_connection_method)
 
     elif tool_option == 'Markov Model':
-        st.header('Developing')
+        markovModel(file_connection_method)
 
 
 if __name__ == "__main__":
