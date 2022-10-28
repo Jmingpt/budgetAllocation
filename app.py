@@ -28,9 +28,11 @@ def run():
         mmm_model(df)
 
     elif tool_option == 'MTA Model':
+        st.write('Reference: https://www.linkedin.com/pulse/multi-channel-attribution-model-python-sheranga-gamwasam')
         mtaModel(file_connection_method)
 
     elif tool_option == 'Markov Model':
+        st.write('Reference: https://towardsdatascience.com/marketing-channel-attribution-with-markov-chains-in-python-part-2-the-complete-walkthrough-733c65b23323#:~:text=Save-,Marketing%20Channel%20Attribution%20with%20Markov%20Chains%20in%20Python%20%E2%80%94%20Part%202,eventually%20convert%20(or%20not).')
         markovModel(file_connection_method)
 
 
